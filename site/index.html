@@ -1,16 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hi There !!!!!!!!!!!!</title>
+	<title>HTML</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		p.big {
+			color :blue;
+			/*font-size: 18px;*/
+		}
+		h1 {
+			color:red;
+			text-align:center;
+			font-weight: bold;
+			font-style:italic;
+			background-color: yellow;
+			opacity:.3;
+		}
+		article > p {
+			color:orange;
+		}
+		.green {
+			color:green;
+		}
+		#name {
+			color:magenta;
+		}
+		div > p {
+			color:indigo;
+			background-color: gray;
+		}
+		/*span {
+			background-color: pink;
+		}*/
+		header li {
+			list-style: none;
+		}
+		a:link, a:visited {
+			text-decoration: none;
+			background-color: green;
+			border:1px solid green;
+			font-weight: bolder;
+			color:black;
+			width:300px;
+			display:block;
+			text-align: center;
+			margin-bottom: 1px;
+		}
+		a:hover, a:active {
+			background-color: blue;
+			color:purple;
+		}
+		header li:nth-child(2) {
+			font-style: italic;
+		}
+		header li:nth-child(5):hover {
+			background-color: yellow;
+			cursor: crosshair;
+		}
+	</style>
 </head>
 <body>
-<h1>Roomi</h1>
-<p> What are you doing here !</p>
-<p>Learning Sublime text</p>
+<h1>Coursera Online Learning</h1>
+<header>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php">Algorithms Assignment 1</a></li>
+		<li><a href="https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php">Algorithms Assignments 2</a></li>
+		<li><a href="https://moodle.iitd.ac.in/login/index.php">Moodle IITD</a></li>
+		<li><a href="https://leetcode.com/shakib2501/">LeetCode</a></li>
+	</ul>
+</header>
+<article>
+<div id="box">
+<p id="content"> I am applying for financial aid because I can't afford the course fee. I am studying in B.Tech 2nd year at the Indian Institute of Technology Delhi. There are institute fees as well as Hostel and mess fees which are around <span class="green">INR150,000 per semester</span>. I am interested to learn this course from COURSERA,  a large hub of learning materials.
+ I keen to study this course as well as learn something new. In my first year, I came to know that there is so much to learn on the COURSERA. But when I found here this seems to be a really opportunistic platform to find my interest. There are courses offered in my college-related to courses available on COURSERA. That's why I want to prepare for those courses and learn something more about those courses beforehand.
+Due to these reasons, I want to apply for the financial aid available for this course.
+</p>
+</div>
+<div><p>This is the step by step learning and helps you in learning the concepts thoroughly on your own pace.</p>
+
+	You can submit any assignment before the course ends to <span id="name"> pass the course </span></div>
+	<!-- <span>Here</span> -->
+</article>
 <ul>
-	<li>lafawefkljmflsk</li>
-	<li> laksdjdfksd</li>
+	<li class="green">Complete the course and earn a certificate</li>
+	<li id="name"> You can submit any assignment before the course ends to pass the course</li>
 </ul>
-<h1>Aman</h1>
+<h1>How it Helps ?</h1>
+<p class="big", style="text-align: center">I keen to study this course as well as learn something new. In my first year, I came to know that there is so much to learn on the COURSERA. But when I found here this seems to be an opportunistic platform to find my interest. There are courses offered in my college-related to courses available on COURSERA. That's why I want to prepare for those courses and learn something more about those courses beforehand.
+I can learn from this platform which but it will be amazing if I get the certificate that I have learned from here so that I can attach that certificate on resume. This is so confidential for me and to explore further. I will treat this aid as an opportunity if I got this.
+
+<div>I plan on adding any certificates I've attained to all of my applications/resumes. I need all the help I can get to land a job, Tricky to prove though.</div>
+</p>
+<div>Complete the course and earn a certificate</div>
 </body>
 </html>
